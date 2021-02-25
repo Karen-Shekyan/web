@@ -12,3 +12,18 @@ h2 {
   border-top: 1px solid #162AA2;
 }
 
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  background-color: #09C813;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  display: block;
+  color: #3450F7;
+  text-align: center;
+  padding: 16px 16px;
+}
