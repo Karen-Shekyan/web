@@ -9,13 +9,12 @@ p a {
 
 h2 {
   color: #3450F7;
-  border-top: 1px solid #162AA2;
+  text-decoration: underline;;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-  background-color: #09C813;
   margin: 0;
   overflow: hidden;
 }
@@ -25,4 +24,8 @@ li a {
   color: #3450F7;
   text-align: center;
   padding: 16px 16px;
+}
+
+li a:hover {
+    background-color: #09C813;
 }
