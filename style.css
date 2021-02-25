@@ -21,7 +21,7 @@ ul {
   display: inline-flex;
 }
 
-li a {
+li {
   color: #3450F7;
   text-align: center;
   padding: 16px 16px;
