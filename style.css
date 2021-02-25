@@ -3,7 +3,7 @@ body {
   font-family: Georgia, Helvetica, serif;
 }
 
-p {
+p a {
   color: #7D8FFB;
 }
 
@@ -13,15 +13,14 @@ h2 {
 }
 
 ul {
-  display: inline-flex;
-  list-style: none;
+  list-style-type: none;
   padding: 0;
   background-color: #09C813;
   margin: 0;
   overflow: hidden;
 }
 
-li {
+li a {
   display: block;
   color: #3450F7;
   text-align: center;
