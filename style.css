@@ -3,7 +3,7 @@ body {
   font-family: Georgia, Helvetica, serif;
 }
 
-body a:hover {
+p a:hover {
   color: #5870fc
 }
 
@@ -33,10 +33,17 @@ li {
   text-align: center;
   padding: 0px 0px;
   background-color: #09C813;
+  font-size: 60;
 }
 
 li a:hover {
   background-color: #080;
+}
+
+img {
+  float: left;
+  height: 250px;
+  background-color: #DEFBA9;
 }
 
 nav {
