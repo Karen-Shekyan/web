@@ -43,8 +43,9 @@ li a:hover {
 
 img {
   float: left;
-  height: 250px;
+  height: 200px;
   background-color: #DEFBA9;
+  margin-right: 10px
 }
 
 nav {
