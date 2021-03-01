@@ -52,3 +52,9 @@ img {
 nav {
   text-align: center;
 }
+
+h1 {
+  text-align: center;
+  color: #3450F7;
+  font-size: 70px;
+}
