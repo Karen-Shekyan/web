@@ -9,13 +9,15 @@ body a:hover {
 
 p {
   color: #7D8FFB;
-  font-size: 20px;
+  font-size: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h2 {
   text-align: center
   color: #3450F7;
-  text-decoration: underline;;
+  text-decoration: none;
 }
 
 ul {
