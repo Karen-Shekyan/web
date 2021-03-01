@@ -3,12 +3,17 @@ body {
   font-family: Georgia, Helvetica, serif;
 }
 
+body a:hover {
+  color: #5870fc
+}
+
 p {
   color: #7D8FFB;
   font-size: 20px;
 }
 
 h2 {
+  text-align: center
   color: #3450F7;
   text-decoration: underline;;
 }
@@ -24,10 +29,14 @@ li {
   display: inline-flex;
   color: #3450F7;
   text-align: center;
-  padding: 16px 16px;
+  padding: 0px 0px;
   background-color: #09C813;
 }
 
 li a:hover {
   background-color: #080;
+}
+
+nav {
+  text-align: center
 }
