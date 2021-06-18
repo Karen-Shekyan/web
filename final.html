@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+<head>
+  <link href="Cipherstyle.css" rel="stylesheet">
+</head>
+
+<body>
+
+<ul class="nav">
+  <li><a href="CipherSite.html" class="link">Project Site!</a></li>
+</ul>
+
+<h1>CoDecoder By Karen Shekyan, Period 9</h1>
+
+<h2>Info</h2>
+
+<p>This project is a website that teaches the user about various different ciphers and their histories and allows the user to...use the ciphers. A home page introduces the user to the topic and each of 3 pages goes more in depth about the Vigenere cipher, the RSA cipher, and Morse code. The sites use python programs to perform the encryption and decryption tasks via math and dictionaries. Each page describe how to use it. To encrypt/decrypt on the Vigenere page, enter a phrase and a keyword press 'Encode' or 'Decode' buttons. On the Morse page, type a phrase into the plaintext box to encode or a Morse-ified message into the ciphertext box to decode. On the RSA page, input 3 numbers to decrypt. More information on these processes is provided on each page. Link to the project website is in the navbar!</p>
+
+<h2>Files</h2>
+<ul class="ls">
+  <li class="e">final.html: me! (this file)</li>
+  <li class="e">CipherSite: project home page. Serves as an introduction to the info in the project.</li>
+  <li class="e">Cipherstyle.css: formatting and styles for all the html files.</li>
+  <li class="e">Morse.html: page containing information about Morse code and an encryption/decryption program for the user.</li>
+  <li class="e">RSA.html: page containing information about the RSA cipher and a decryption program for the user.</li>
+  <li class="e">Vigenere.html: page containing information about the Vigenere cipher and an encryption/decryption program for the user.</li>
+  <li class="e">DMorse.py: python program for decrypting Morse.</li>
+  <li class="e">DVigenere.py: python program for decrypting Vigenere.</li>
+  <li class="e">EMorse.py: python program for encrypting Morse.</li>
+  <li class="e">EVigenere.py: python program for encrypting Vigenere.</li>
+  <li class="e">RSA.py: python program for decrypting RSA.</li>
+  <li class="e">VigenereMath.jpg: Frankensteined image displayed on the Vigenere cipher page to visualize the concept.</li>
+</ul>
+
+<h2>Resources</h2>
+<ul class="ls">
+  <li class="e">A whole lot of Wiki articles:</li>
+    <ul>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA Cipher</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher">Vigenere Cipher</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/Morse_code">Morse Code</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/Cipher">Ciphers</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/Classical_cipher">Classical Ciphers</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/RC4">RC4</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES-128</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/Kasiski_examination">Kasiski's examination</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/Euclidean_algorithm">Euclidean algorithm</a></li>
+      <li class="e"><a href="https://en.wikipedia.org/wiki/Great_Cipher">Great Cipher</a></li>
+    </ul>
+  <li class="e">The cgi python library. Used in every python file so it can be invoked by the server.</li>
+</ul>
+
+<h2>"Features" (Bugs)</h2>
+<ul class="ls">
+  <li class="e">Entering a non-letter character into the 'keyword' box on the Vigenere cipher page in the encode section will produce a server error. The page explains the keyword must only contain letters to avoid this.</li>
+  <li class="e">Entering anything but correctly formatted Morse code into the 'Ciphertext' box on the Morse code page will produce a server error.</li>
+</ul>
+
+</body>
+</html>
